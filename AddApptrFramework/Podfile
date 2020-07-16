@@ -1,0 +1,15 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+target 'AddApptrFramework' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AddApptrFramework
+    pod 'AFNetworking'
+
+  target 'AddApptrFrameworkTests' do
+    # Pods for testing
+  end
+
+end
